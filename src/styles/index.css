@@ -1,0 +1,107 @@
+.content-ctn {
+    background: #fff;
+    transform: translateY(-50px);
+    width: 90%;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    height: 40px;
+    padding: 0 30px;
+    border-radius: 5px;
+    border: 1px solid #2ECA38;
+    transition: all 300ms;
+    background: #2ECA38;
+    color: #fff;
+}
+
+button:hover {
+    cursor: pointer;
+    background: transparent;
+    color: #2ECA38;
+}
+
+.hero-container {
+    background-image: url('../images/leaves.jpg');
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #2ECA38;
+}
+
+.input {
+    border: 1px solid #000;
+    width: 100%;
+    padding: .7rem;
+    box-sizing: border-box;
+}
+
+label {
+    margin-bottom: 20px;
+}
+
+.list-container {
+    list-style: none;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+.summary-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+.list-content {
+    margin-left: 20px;
+}
+
+.list-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2ECA38;
+    width: 200px;
+    height: 130px;
+    border-radius: 15px;
+}
+
+/*.list-image-container &*/
+
+.title {
+    margin: 0;
+    padding: 0;
+    font-size: 1.3rem;
+}
+
+.title:hover {
+    cursor: pointer;
+}
